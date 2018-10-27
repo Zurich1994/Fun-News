@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:gravity="center_horizontal"
+        android:text="您的帐号为："
+        android:textSize="25sp"
+        android:layout_marginTop="20dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/userid"
+        android:gravity="center_horizontal"
+        android:text="00000000"
+        android:textSize="25sp"
+        android:layout_marginTop="20dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:gravity="center_horizontal"
+        android:text="使用帐号直接登录，可以在帐号管理中管理帐号信息哦"
+        android:textSize="15sp"
+        android:layout_marginTop="20dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+        <alexhao.fun.View.CircleButton
+            android:id="@+id/okregis"
+            app:cb_color="#00bfff"
+            android:src="@drawable/yes"
+            app:cb_pressedRingWidth="8dp"
+            android:layout_width="70dp"
+            android:layout_height="70dp"/>
+    </LinearLayout>
+</LinearLayout>
